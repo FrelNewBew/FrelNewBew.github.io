@@ -43,12 +43,13 @@
   border-radius: 30px;
   margin-bottom: 15px;
   transition: all 1.5s ease;
+  padding: 1px 15px;
 }
 .form_name p{
   font-family: PTSans, sans-serif;
   font-weight: bolder;
   text-transform: uppercase;
-  padding: 2px 30px;
+  font-size: 1em;
 }
 .select_wrp{
   display: flex;

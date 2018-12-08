@@ -1,40 +1,15 @@
 
-$(document).ready(function(){    
- var  para=$('.box1');
- var image=$('.box2');
- para.on('click', function() {
-  image.fadeOut();
- 
-
- })
-para.off('click', function(){
-  image.off('click');
-})
-  
-
-
-
-
-
+$(document).ready(function(){
+ $('.reg_wr').on('mouseover', function() {
+    $('.img_wrap').addClass('hovered');	
+    $(".hovered").css('filter','blur(10px)');   
+});
+   $('.reg_wr').on('mouseout', function() {
+   	$(".hovered").css('filter','blur(0px)');
+    $('.img_wrap').removeClass('hovered');	   
+});
 
 });
 
-// $(document).ready(function(){    
-//   $(".box2").on("click", function(){
-//   $(this).css({'width'  : '100%'});
-//   $(".box1").css({'width': '3%'});
-//   $(".box3").css({'width': '3%'});
-// });
-
-// });
-
-// $(document).ready(function(){    
-//   $(".box3").on("click", function(){
-//   $(this).css({'width'  : '100%'});
-//   $(".box2").css({'width': '3%'});
-//   $(".box1").css({'width': '3%'});
-// });
-
-// });
 
 
