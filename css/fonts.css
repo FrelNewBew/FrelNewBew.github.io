@@ -2,3 +2,7 @@
 	font-family: PTSans;
 	src: url(../fonts/PT_Sans-Web-Regular.ttf);
 }
+@font-face{
+	font-family: Mountains;
+	src: url(../fonts/MountainsofChristmas-Bold.ttf);
+}

@@ -12,6 +12,8 @@
   box-shadow: 0 0 10px gray inset;
   margin-top: 10px;
   cursor: pointer;
+
+  background-color: #b9b9b9;
 }
 
 .btn_put:hover{
