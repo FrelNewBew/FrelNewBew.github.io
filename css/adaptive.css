@@ -215,6 +215,7 @@
 	.link_nav{
 		border-radius: 0;
 		font-size: 1em;
+		background-color: red;
 	}
     .link_nav:hover{
       width: 100%;
