@@ -1,4 +1,4 @@
-@media screen and (max-device-width: 550px)
+/*@media screen and (max-device-width: 550px)
 {
 	.body_all{
 		width: 100%;
@@ -166,7 +166,7 @@
        font-size: 1.1em;
     }
 }
-
+*/
 
 @media screen and (max-width: 550px)
 {
