@@ -41,7 +41,6 @@
 	.link_nav{
         height: 100%;
 		font-size: 1em;
-		background-color: red;
 	}
     .link_one{
 	background-color: #131519;
@@ -153,7 +152,7 @@
 		font-size: 1em;
 	}
     .link_one{
-	background-color: #131519;
+	background-color: red;
 	border-top-left-radius: 35px;
 	border-bottom-left-radius: 35px;
 
