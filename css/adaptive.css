@@ -46,9 +46,12 @@
 	   background-color: #131519;
 	   border-top-left-radius: 35px;
 	   border-bottom-left-radius: 35px;
+
     }
+
     .link_two{
 	   background-color: #131519;
+
     }
     .link_three{
 	    background-color: #131519;
@@ -68,7 +71,7 @@
 	}
 
 	aside{
-		width: 95%;
+		width: 77%;
 
 		-ms-align-self: center;
 		align-self: center;
@@ -92,12 +95,15 @@
     .chronicle_list{
 
     	margin: 0;
+    	margin-left: 5px;
+
 
     	-webkit-flex-direction: row;
     	-moz-flex-direction: row;
     	-ms-flex-direction: row;
     	-o-flex-direction: row;
     	flex-direction: row;
+
     }
 
     .chronicle_list a{
@@ -105,17 +111,18 @@
         color: #F6F6F6;
         border: 1px solid #505050;
 
-        font-size: 1.5em;
+        font-size: 1em;
 
-	    width: 150px;
-	    height: 50px;
+	    height: 40px;
+	    width: 100px;
 
-	    line-height: 50px;
+	    line-height: 40px;
 
     }
 
     .reit_list{
-    	order: 1;
+    	order: 0;
+    	margin: 0;
     	-webkit-flex-direction: column;
     	-moz-flex-direction: column;
     	-ms-flex-direction: column;
@@ -128,14 +135,45 @@
         color: #F6F6F6;
         border: 1px solid #505050;
 
-        font-size: 1.5em;
+        font-size: 1em;
+	    height: 40px;
+	    width: 100px;
 
-	    width: 150px;
-	    height: 50px;
-
-	    line-height: 50px;
-
+	    line-height: 40px;
     }
+
+    .container{
+    	justify-content: center;
+    }
+
+    .box__select h1, h2, h3{
+		font-size: 1.5em;
+	}
+
+	.name{
+		font-size: 1.2em;
+	}
+
+	.icon{
+		padding: 3px;
+		font-size: 1em;
+		margin-left: 10px;
+	}
+
+	.reit{
+		font-size: .9em;
+	}
+
+	.chronicl{
+		font-size: .9em;
+		width: 150px;
+	}
+
+	.date{
+		font-size: .9em;
+		margin-right: 10px;
+	}
+
 }
 
 @media screen and (max-width: 1200px)
@@ -204,14 +242,15 @@
     .chronicle_list{
 
     	margin: 0;
+    	margin-left: 5px;
 
-    	padding: 0;
 
     	-webkit-flex-direction: row;
     	-moz-flex-direction: row;
     	-ms-flex-direction: row;
     	-o-flex-direction: row;
     	flex-direction: row;
+
     }
 
     .chronicle_list a{
@@ -221,9 +260,10 @@
 
         font-size: 1em;
 
-	    height: 50px;
+	    height: 40px;
+	    width: 100px;
 
-	    line-height: 50px;
+	    line-height: 40px;
 
     }
 
@@ -243,15 +283,44 @@
         border: 1px solid #505050;
 
         font-size: 1em;
-	    height: 50px;
+	    height: 40px;
+	    width: 100px;
 
-	    line-height: 50px;
-
+	    line-height: 40px;
     }
 
     .container{
     	justify-content: center;
     }
+
+    .box__select h1, h2, h3{
+		font-size: 1.5em;
+	}
+
+	.name{
+		font-size: 1.2em;
+	}
+
+	.icon{
+		padding: 3px;
+		font-size: 1em;
+		margin-left: 10px;
+	}
+
+	.reit{
+		font-size: .9em;
+	}
+
+	.chronicl{
+		font-size: .9em;
+		width: 150px;
+	}
+
+	.date{
+		font-size: .9em;
+		margin-right: 10px;
+	}
+
 }
 
 
@@ -389,6 +458,8 @@
         -ms-flex-direction: row;
         -o-flex-direction: row;
         flex-direction: row;
+
+        margin: 0;
     }
     .left_chronicle{
         -webkit-flex-direction: row;
@@ -396,6 +467,8 @@
         -ms-flex-direction: row;
         -o-flex-direction: row;
         flex-direction: row;
+        
+         margin: 0;
     }
 
     .reit_list{
@@ -675,6 +748,8 @@
         -ms-flex-direction: row;
         -o-flex-direction: row;
         flex-direction: row;
+
+        margin: 0;
     }
     .left_chronicle{
         -webkit-flex-direction: row;
@@ -682,6 +757,8 @@
         -ms-flex-direction: row;
         -o-flex-direction: row;
         flex-direction: row;
+        
+         margin: 0;
     }
 
     .reit_list{
