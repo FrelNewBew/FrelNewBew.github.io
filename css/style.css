@@ -77,7 +77,7 @@ header {
   -ms-flex-pack: center;
   justify-content: center;
   width: 90%;
-  max-width: 1300px;
+  max-width: 1200px;
   margin-top: 250px;
 }
 /*Менюшка*/
@@ -238,7 +238,6 @@ li:hover {
   border-top-left-radius: 35px;
   width: 150px;
   padding-left: 10px;
-  /*padding-right: 5px;*/
   height: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -313,7 +312,7 @@ main {
   -ms-flex-pack: justify;
   justify-content: space-between;
   width: 90%;
-  max-width: 1300px;
+  max-width: 1220px;
   border-radius: 30px;
 }
 aside {
@@ -674,7 +673,7 @@ footer {
   -ms-flex-align: end;
   align-items: flex-end;
   width: 90%;
-  max-width: 1300px;
+  max-width: 1230px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
