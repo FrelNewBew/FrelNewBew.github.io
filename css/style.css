@@ -334,8 +334,8 @@ aside {
   width: 300px;
   margin-left: 15px;
   margin-top: 15px;
-  margin-bottom: 15px;
   border-radius: 25px;
+  padding-bottom: 50px;
   border: 1px solid #505050;
   background-color: #1F2228;
   -webkit-transition: all 1s ease;
@@ -664,13 +664,18 @@ footer {
   -ms-flex-direction: column;
   -o-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-align-items: flex-end;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   width: 90%;
   max-width: 1300px;
-  margin-top: 150px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 .self {
@@ -688,12 +693,17 @@ footer {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   flex-direction: column;
-  margin: auto  auto auto 5%;
   border: 1px solid #505050;
   border-radius: 30px;
-  background-color: #23262D;
   width: 850px;
   padding: 0 0 0 15px;
+  -webkit-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  transition: all 2s ease;
+}
+.self:hover {
+  -webkit-box-shadow: 0 0 15px #505050;
+  box-shadow: 0 0 15px #505050;
 }
 .self h1 {
   font-family: Oswald, sans-serif;
@@ -739,7 +749,7 @@ footer {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
-  margin: 20px  5% auto auto;
+  margin: 20px  5% 20px auto;
   border: 1px solid #505050;
   border-radius: 30px;
   padding: 5px 20px;

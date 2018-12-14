@@ -319,9 +319,10 @@ aside{
 
 	margin-left: 15px;
 	margin-top: 15px;
-	margin-bottom: 15px;
 
 	border-radius: 25px;
+
+	padding-bottom: 50px;
 
 	border: 1px solid #505050;
 
@@ -635,14 +636,17 @@ footer{
 	-ms-flex-direction: column;
 	-o-flex-direction: column;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
+	-ms-align-items: flex-end;
+	align-items: flex-end;
 
 	width: 90%;
 	max-width: 1300px;
   
-  margin-top: 150px;
+  margin-top: 50px;
 	margin-bottom: 50px;
 }
+
 
 .self{
 	display: -webkit-flex;
@@ -655,13 +659,19 @@ footer{
 	-ms-flex-direction: column;
 	-o-flex-direction: column;
 	flex-direction: column;
-	margin: auto  auto auto 5%;
+
 	border: 1px solid #505050;
 	border-radius: 30px; 
-  background-color: #23262D;
+  
 	width: 850px;
 	padding: 0 0 0 15px;
+	transition: all 2s ease;
 }
+
+.self:hover{
+  box-shadow: 0 0 15px #505050;
+}
+
 .self h1{
   font-family: Oswald, sans-serif;
   font-weight: normal;
@@ -704,7 +714,7 @@ footer{
 	flex-direction: column;
 	-ms-align-items: flex-end;
 	align-items: flex-end;
-	margin: 20px  5% auto auto;
+	margin: 20px  5% 20px auto;
 
 	border: 1px solid #505050;
 	border-radius: 30px;

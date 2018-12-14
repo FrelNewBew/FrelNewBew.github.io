@@ -33,7 +33,6 @@
 	}
     
 	nav ul{
-		background-color: red;
 		border: none;
 		border-radius: 0; 
 	}
@@ -148,31 +147,22 @@
     .self p{
     	margin-left: 10px;
     	margin-top: 30px;
-    	font-size: 1em;
+    	font-size: .7em;
     }
 
     .self h1{
-    	font-size: 1em;
-    	margin-left: 20px
+    	font-size: .7em;
+    	margin-left: 10px
     }
-	.copy{
-	   width: 100%;
-       margin: 50px  0 auto auto;
-       margin-bottom: 100px;
-       padding: 0;
-       border-radius: 0;
-       box-shadow: none;
-       border: none;     	
-	}
     
-    .copy p{
-    	font-size: 1em;
-    	margin-left: 25px;
+    .copy{
+    	width: 80%;
     }
-	
-	.copy a{
-		font-size: 1em;
-		margin-right: 10px;
-	}
+    .copy a{
+       font-size: 1.5em;
+    }
 
+    .copy p{
+       font-size: 1.1em;
+    }
 }
